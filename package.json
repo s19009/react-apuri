@@ -30,5 +30,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+
+  "homepage": "http://s19009.github.io/react-weburi",
+
+  "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
   }
 }
