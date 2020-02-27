@@ -35,5 +35,10 @@
     "gh-pages": "^2.2.0"
   },
 
-  "homepage": "http://s19009.github.io/web-apuri"
+  {
+      "scripts": {
+          "deploy": "gh-pages -d build"
+      },
+      "homepage": "https://s19009.github.io/react-apuri/"
+  }
 }
